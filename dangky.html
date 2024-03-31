@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Trang chủ</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" href="image/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="content">
+                <div class="logo"><img src="./image/logo.jpg" width="150px" height="100px"></div>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="trangchu.html">Trang chủ</a></li>
+                    <li><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li><a href="chitietnhatro.html">Chi tiết nhà trọ</a></li>
+                    <li><a href="dangnhap.html">Đăng nhập</a></li>
+                    <li><a href="dangky.html">Đăng ký</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                    <li>
+                        <nav class="form">
+                            <form class="search" name="myForm" onsubmit="return validateForm()" method="get"
+                                action="timkiem.html">
+                                <input class="inputs" type="text" placeholder="Tìm kiếm..." name="search">
+                                <button class="buttons" type="submit"><i class="fa fa-search"></i></button>
+                                </button></form>
+                        </nav>
+                    </li>
+                            
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <form class="form1" onsubmit="return validateDangky()" action="" method="get">
+                <h1 id="titlel">Đăng Kí Thành Viên</h1>
+                <table>
+                    <tr>
+                        <td><i class="fa fa-user"></i></td>
+                        <td><input class="name" id="name" placeholder="Họ và tên" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-user"></i></td>
+                        <td><input class="username" id="username" placeholder="Tên đăng nhập" type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-solid fa-key"></i></td>
+                        <td><input class="password" id="password" placeholder="Mật Khẩu" type="password" ></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-solid fa-key"></i></td>
+                        <td><input class="password" id="password" placeholder="Nhập lại Mật Khẩu" type="password" ></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-solid fa-envelope"></i></td>
+                        <td><input class="email" id="email" placeholder="Email" type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-solid fa-phone"></i></td>
+                        <td><input class="telephone" id="telephone" placeholder="Số điện thoại" type="text" ></td>
+                    </tr>
+                </table>
+        
+                <button class="button1" type="submit">Đăng kí</button>
+                <button class="reset" name="reset" type="reset">Hủy</button>
+              </form>
+        </main>
+        <footer>
+            <div class="footer_main">
+                &copy; 2023 Nhà trọ giá rẻ.
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        
+                <a href="mailto: hkt@gmail.com"><i class="fa fa-envelope"></i></a>
+                    
+                <a href="tel:+84910101202"><i class="fa fa-phone"></i></a>                    
+            </div>
+
+            <script src="main.js"></script>
+        
+        </footer>
+    </body>
+</html>

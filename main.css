@@ -1,0 +1,546 @@
+/* ----HEADER----*/
+
+.content{
+    height: 100px;
+    background-color: #CB6CE6;
+
+  }
+  
+.logo{
+  margin-left: 550px;
+}
+
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*text van hien thi khi tran ra*/
+    background-color: aliceblue;
+  }
+  
+  header li {
+    float: left;
+  }
+  
+  header li a {
+    display: block;
+    background-color: #CB6CE6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+    color: yellow;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  header li nav {
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  header a.active {
+    background-color: #111;
+    color: white;
+  }
+  
+  header li a:hover {
+    background-color: #d63636;
+  }
+  
+  .search {
+    float: right;
+  }
+  
+  .inputs {
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 130px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  
+  .buttons {
+    display: flex;
+    cursor: pointer;
+    float: right;
+    padding: 6px 10px;
+    margin-top: 10px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .buttons:hover {
+    background: white;
+  }
+  
+  /*----FOOTER-----*/
+  
+  footer {
+    background-color: #bf68d7;
+    margin-top: 2px;
+    border: 1px solid #ed4190;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /*can giua chieu ngang*/
+    align-items: center;
+    /*can giua chieu doc*/
+    height: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  
+  footer a {
+    color: white;
+    letter-spacing: 20px;
+  }
+  
+  /* ----main trangchu----*/
+  
+  h2{
+    color: #bf68d7;
+  }
+  
+  .img1 img{
+    margin-top: 10px;
+    border: solid rgb(237, 198, 26);
+  }
+  
+  #img2{
+    width: 200px;
+    height: 200px;
+    border: solid rgb(237, 198, 26);
+  }
+  
+  #img3{
+    width: 200px;
+    height: 200px;
+    border: solid rgb(237, 198, 26);
+  }
+  
+  #img4{
+    width: 200px;
+    height: 200px;
+    border: solid rgb(237, 198, 26);
+  }
+  
+  .main1 h1{
+    color: #bf68d7;
+    text-decoration: underline greenyellow;
+  }
+  
+  #main1-1{
+    font-size: larger;
+  }
+  
+  .main2 h1{
+    text-decoration: underline firebrick;
+    color:#bf68d7 ;
+  }
+  
+  .main5 h1{
+    text-decoration: underline firebrick;
+    color:#bf68d7 ;
+  }
+  
+  #main2-1{
+    font-size: larger;
+  }
+  
+  #main3-1{
+    font-size: larger
+  }
+  
+  #main4-1{
+    font-size: larger
+  }
+  
+  /* ------Gioi thieu----- */
+  
+.gt2{
+  margin-top: 240px;
+}
+.gt3{
+  margin-top: 80px;
+
+}
+  .imggt {
+    width: 500px;
+    height: 400px;
+    border: solid rgb(252, 16, 165)
+  }
+  
+  .gt {
+    display: flex;
+  }
+  
+  .gt-1 {
+    width: 50%;
+  }
+  
+  .gt-1 h1{
+    text-align: center;
+    color: black;
+  }
+  
+  .gt-1 h2{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+  }
+  
+  .gt-1 p{
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .gt-2 {
+    text-align: center;
+  }
+  
+
+
+  .gt-2 h2{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .gt-2 p{
+    font-size: 20px;
+  }
+  
+  .gt-2{
+    background-image: url(image/bggt.png);
+    margin-top: 80px;
+    margin-left: 20px;
+    background-size: contain ;
+    background-repeat: no-repeat;
+  }
+  
+  /* --------tin tuc----- */
+  
+  .col2 {
+    display: flex;
+  }
+  
+  .col2-1 {
+    width: 30%;
+  }
+  
+  .col2-2 h1{
+    text-align: center;
+    text-decoration: underline rgb(238, 208, 7) ;
+    color: #bf68d7;
+  }
+  
+  .col2-1 h1{
+    text-decoration: underline rgb(238, 208, 7);
+    color: #bf68d7;
+  }
+  
+  .col2-1 img {
+    object-fit: cover;
+  }
+  
+  .col2-2new {
+    display: flex;
+  }
+  
+  .col2-2new img{
+    border: dashed #bf68d7;
+  }
+  
+  /* -----sanpham ------*/
+  
+  
+  /* -----giohang -----*/
+  
+  .title{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: black;
+  }
+  
+  /* table */
+  .tablegh th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 14%;  
+  }
+  
+  .tablegh td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 14%;
+  }
+  
+  .tablegh tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 14%;  
+  }
+  
+  .tablegh{
+    display: block;
+    border: none;
+    margin: 0px 100px 0px 100px;
+    width: 80%;
+    font-size: 20px;
+  }
+  
+  .img-sp{
+    width: 111px;
+    height: 113px;
+  }
+  
+  .tablegh th{
+    color: rgb(21, 5, 5);
+    background-color: #bf68d7;
+  }
+  
+  
+  /*-Thung rac-*/
+  
+  #frash-bin{
+    border: none;
+    background-color:white;
+  }
+  
+  #frash-bin:hover{
+    cursor: pointer;
+  }
+  
+  .fa-trash{
+      color: #bf68d7;
+      padding: 0px;
+  }
+  
+  /*-- thanh tien --*/
+  
+  .end{
+      text-align: center;
+      padding-left: 35%;
+  }
+  
+  span#xacnhandonhang{
+      margin: 30%;
+  }
+  
+  #xacnhandonhang, #trovegiohang,#thanhcong{
+    /* border-radius: 5px;
+    background-color:rgb(246, 172, 14); 
+    width: 140px;
+    height: 30px;*/
+    border: none;
+    background: #bf68d7;
+    border-radius: 5px;
+    padding: 6px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 30px;  
+  }
+  
+  #xacnhandonhang:hover, #trovegiohang:hover,#thanhcong:hover{
+    color: white;
+    background-color: #111;
+  }
+   
+  /* --------dangnhap------- */
+  
+  .form1 {
+    box-sizing: border-box;
+    /*thuộc tính width và height sẽ tự động bao gồm luôn content, padding và border, còn chiều rộng của content sẽ tự động co giãn tương ứng nếu chúng ta thay đổi padding và border*/
+    width: 500px;
+    margin: 10px auto 20px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 40px;
+    border-radius: 3px;
+  }
+  
+  #form1 {
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+  }
+   
+  .username, .password, .email, .name, .telephone {
+    margin: 22px 15px;
+    width: 370px;
+    display: block;
+    border: none;
+    border-bottom: solid 1px #1abc9c;
+    color: #0e6252;
+    font-size: 20px;
+    outline: none;
+  }
+  
+  .button0 {
+    border: none;
+    background: #0a0909;
+    border-radius: 5px;
+    padding: 6px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 32px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .form1 i.fa{ 
+    margin-left: 20px;
+    background-color: #f58019;
+    width: 55px;
+    height: 49px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 30px;
+  }
+  
+  .forgot{
+    margin-right: 30px;
+    float: right;
+    font-size: 20px;
+  }
+  
+  /* ------dangky------- */
+  
+  .button1 {
+  border: none;
+    background: black;
+    border-radius: 5px;
+    padding: 6px;
+    width: 130px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-left: 73px;
+    margin-top: 20px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+    height: 40px;
+  }
+  
+  .reset{
+  border: none;
+  background:black;
+  border-radius: 5px;
+  padding: 6px;
+  width: 130px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: 20px;
+  height: 40px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /*------ lienhe------ */
+  
+  .problem {
+  margin: 30px 15px;
+  width: 400px;
+  display: block;
+  border: none;
+  border-bottom: solid 1px #1abc9c;
+  color: #0e6252;
+  font-size: 20px;
+  outline: none;
+  }
+  
+  #titlel{
+    text-align: center;
+  }
+  
+  .form1 td{
+    margin: 5px;
+  }
+  
+  .message{
+    margin: 30px 11px;
+    width: 400px;
+    display: block;
+    /* khong xuong hang*/
+    border-radius: 10px;
+    border: solid 5px #1abc9c;
+    color: #0e6252;
+    font-size: 20px;
+    height: 200px;
+  }
+  
+  .td1 {
+    padding-bottom: 160px ;
+  }
+  
+  .button2 {
+    border: none;
+    background: #bf68d7;
+    border-radius: 5px;
+    padding: 6px;
+    width: 250px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-left:  340px;
+    margin-top: 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .single-contact i.fa {
+    background-color: #bf68d7;
+    width: 55px;
+    height: 49px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+  
+  .single-contact1 i.fa {
+    background-color: #bf68d7;
+    width: 55px;
+    height: 49px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 30px;
+    margin-left: 200px;
+  }
+  
+  .single-contact{
+    font-size: 21px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form2 {
+    box-sizing: border-box;
+    width: 900px;
+    margin: 10px auto 20px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    padding-bottom: 40px;
+    border-radius: 3px;
+  }
+  
+  
